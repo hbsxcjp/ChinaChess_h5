@@ -22,10 +22,7 @@ play.init = function (){
     play.isOffensive	=	true;			//是否先手
     play.depth			=	play.depth || 3;				//搜索深度
     
-    play.isFoul			=	false;	//是否犯规长将
-    
-    
-    
+    play.isFoul			=	false;	//是否犯规长将         
     com.pane.isShow		=	 false;			//隐藏方块
     
     //初始化棋子
